@@ -925,6 +925,24 @@ a {
     .pr-modal {
         padding-top: 50px
     }
+
+    .pr-margin-top {
+        margin-top: 0 !important;
+    }
+
+    .pr-row-padding>.pr-third,
+    .pr-row-padding,
+    .pr-row-padding>.pr-twothird {
+        padding: 0 !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .pr-margin-bottom {
+        margin-bottom: 0 !important;
+    }
 }
 
 @media (min-width:993px) {
@@ -939,6 +957,8 @@ a {
     .pr-sidebar.pr-collapse {
         display: block;
     }
+
+
 }
 
 @media (max-width:992px) and (min-width:601px) {
@@ -2047,7 +2067,8 @@ a {
 .name {
     color: #fff;
 }
-.name-bg{
+
+.name-bg {
     width: 100%;
     background: #009688;
 }
